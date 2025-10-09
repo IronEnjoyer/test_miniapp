@@ -5,12 +5,12 @@ export async function GET() {
     accountAssociation: {
       header: "eyJmaWQiOjg1MDgyOCwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDZDOGEzNDEyMTk5YTAxMjc3MDU5MGFBNjJjNzQ1NDlBNUMwY2RCQTEifQ",
       payload: "eyJkb21haW4iOiJ0ZXN0bWluaWFwcC10d28udmVyY2VsLmFwcCJ9",
-      signature: "X6nXZxmJ90OJUBjkrFfcPolwEnRg8GRa5StHckZvd39Q3YpSgqmqvs7rHe7N+KtgIc8CtH2vmeuduZZLqvL5hhs=",
-      baseBuilder: {
-        allowedAddresses: ["0xAcB9d992b714AB2f6159b5cba107757d6751B9fF"]
-      }
+      signature: "X6nXZxmJ90OJUBjkrFfcPolwEnRg8GRa5StHckZvd39Q3YpSgqmqvs7rHe7N+KtgIc8CtH2vmeuduZZLqvL5hhs="
     },
-    frame: {
+    baseBuilder: {
+      allowedAddresses: ["0xAcB9d992b714AB2f6159b5cba107757d6751B9fF"]
+    },
+    miniapp: {
       version: '1',
       name: 'My Test App',
       homeUrl: URL,
@@ -18,7 +18,8 @@ export async function GET() {
       splashImageUrl: `${URL}/splash.png`,
       splashBackgroundColor: '#000000',
       primaryCategory: 'social',
-      tags: ['test', 'miniapp']
+      tags: ['test', 'miniapp'],
+      // Add other required fields as needed (see docs)
     }
   });
 }
