@@ -13,6 +13,11 @@ export const minikitConfig = {
     payload: "eyJkb21haW4iOiJ0ZXN0bWluaWFwcC10d28udmVyY2VsLmFwcCJ9",
     signature: "X6nXZxmJ90OJUBjkrFfcPolwEnRg8GRa5StHckZvd39Q3YpSgqmqvs7rHe7N+KtgIc8CtH2vmeuduZZLqvL5hhs="
   },
+  baseBuilder: {
+    allowedAddresses: [
+      "0xAcB9d992b714AB2f6159b5cba107757d6751B9fF"
+    ]
+  },
   miniapp: {
     version: "1",
     name: "Cubey", 
