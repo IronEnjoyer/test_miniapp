@@ -9,9 +9,9 @@ const ROOT_URL =
  */
 export const minikitConfig = {
   accountAssociation: {
-    header: "",
-    payload: "",
-    signature: ""
+    header: "eyJmaWQiOjg1MDgyOCwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDZDOGEzNDEyMTk5YTAxMjc3MDU5MGFBNjJjNzQ1NDlBNUMwY2RCQTEifQ",
+    payload: "eyJkb21haW4iOiJ0ZXN0bWluaWFwcC10d28udmVyY2VsLmFwcCJ9",
+    signature: "X6nXZxmJ90OJUBjkrFfcPolwEnRg8GRa5StHckZvd39Q3YpSgqmqvs7rHe7N+KtgIc8CtH2vmeuduZZLqvL5hhs="
   },
   miniapp: {
     version: "1",
@@ -33,4 +33,3 @@ export const minikitConfig = {
     ogImageUrl: `${ROOT_URL}/blue-hero.png`,
   },
 } as const;
-
