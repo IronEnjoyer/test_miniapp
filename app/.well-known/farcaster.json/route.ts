@@ -2,6 +2,11 @@ export async function GET() {
   const URL = process.env.NEXT_PUBLIC_URL || 'https://testminiapp-git-main-ironenjoyers-projects.vercel.app';
 
   return Response.json({
+    accountAssociation: {
+      header: "",
+      payload: "",
+      signature: ""
+    },
     miniapp: {
       version: '1',
       name: 'My Test App',
